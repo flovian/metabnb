@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerImg {
+  @apply w-imgW h-imgH rounded-lg object-cover
+}
+
+.imageCard {
+  @apply mx-16 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3
+}
+
+.learn-btn {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sectionBtn {
+  @apply font-semibold text-xs cursor-pointer
+}
+
+.link {
+  @apply avg:text-sm lg:text-lg text-lg text-white avg:text-black font-redRose font-semibold avg:hover:text-secondary-200 avg:hover:border-b avg:hover:border-secondary-200 avg:focus:text-secondary-200
+}
+
+.wallet {
+  @apply avg:bg-gradColor rounded-lg text-lg avg:text-xs lg:text-lg font-semibold avg:px-2 avg:py-1 font-redRose text-white
+}
+
+.menu {
+  @apply absolute top-0 -left-full sm:-left-1/2 w-full sm:w-1/2 h-96 md:h-auto p-4 flex flex-col justify-around bg-secondary-200 transition-all ease-in-out duration-1000 z-50
+}
+
+.setRule {
+  @apply overflow-visible
+}
+
+.modalShow {
+  @apply translate-x-full
+}
