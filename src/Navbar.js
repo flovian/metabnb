@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { ReactDOM } from "react";
+import { ReactDOM} from 'react'
 import { Outlet } from "react-router-dom";
-import Root from "./routes/Root";
+import Root from "./Pages/Root";
 import {FaListUl} from 'react-icons/fa'
-import Wallet from "./routes/subpages/Wallet";
+import Wallet from "./Pages/Subpages/Wallet";
 
 function Navbar() {
   const [show, setShow] = useState(false)

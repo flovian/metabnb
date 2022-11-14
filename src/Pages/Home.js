@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Footer from './Footer'
-import About from './subpages/About'
-import PhotoSlides from './subpages/PhotoSlides'
-import Wallet from './subpages/Wallet'
+import About from './Subpages/About'
+import PhotoSlides from './Subpages/PhotoSlides'
+import Wallet from './Subpages/Wallet'
 
 const Home = () => {
   return <>
